@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Ascendit Sp. z o. o.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see https://www.gnu.org/licenses/
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Skompresuj moją galerię</string>
+    <string name="app_long_name">Skompresuj moją galerię</string>
+    <string name="about_thank_you">Dziękuje za korzystanie z mojej aplikacji</string>
+    <string name="version">wersja</string>
+    <string name="version_info">Skompresuj moją galerię</string>
+    <string name="about_contact_me">Skontaktuj się ze mną</string>
+    <string name="about_find_me">Znajdź mnie na</string>
+    <string name="mail_subject">CMG: Temat</string>
+    <string name="website_url">https://www.matdlu.com</string>
+    <string name="mail_address">support@ascendit.pl</string>
+    <string name="linkedin_url">https://www.linkedin.com/in/mateuszdlubak</string>
+    <string name="github_url">https://github.com/matdlu</string>
+    <string name="bt_next">Dalej</string>
+    <string name="bt_accept">Akceptuje</string>
+    <string name="intro_greeting_title">Cześć!</string>
+    <string name="intro_greeting">Aplikacja \"Skompresuj moją galerię\" służy do kompresji zdjęć i pozwala na znaczne zaoszczędzenie miejsca na dysku. W zależności od urządzenia potrafi zmniejszyć rozmiar zdjęć nawet kilkukrotnie bez różnic w jakości widocznych gołych okiem.</string>
+    <string name="intro_warranty_title">Gwarancja</string>
+    <string name="intro_warranty">Niniejszy program jest rozpowszechniany z nadzieją, iż będzie on użyteczny - jednak BEZ ŻADNEJ GWARANCJI.</string>
+    <string name="intro_hint_title">Porady</string>
+    <string name="intro_hint">1. Aplikacja jest we wczesnej fazie rozwoju, przed jej użyciem zalecane jest wykonanie odpowienich kopii zapasowych.\n2. Używasz jej na własną odpowiedzialność.\n3. W czasie kompresji najlepiej nie wychodzić z ekranu kompresji. System Android może wyłączyć aplikacje jeśli z niego wyjdziemy.</string>
+    <string name="intro_permission_title">Uprawnienia aplikacji</string>
+    <string name="intro_permission">W celu umożliwienia kompresji zdjęć aplikacja potrzebuje twojej zgody na dostęp do plików oraz na dostęp do odpowiednich katalogów.</string>
+    <string name="bt_quit">Wyjdź</string>
+    <string name="stats_run_count">Ilość uruchomień kompresji:</string>
+    <string name="stats_photo_count">Ilość skompresowanych zdjęć:</string>
+    <string name="stats_freed_space_sum">Suma zaoszczędzonego miejsca:</string>
+    <string name="stats_freed_space_perc">Średnia oszczędność na jednym zdjęciu:</string>
+    <string name="navbar_comp">Kompresja</string>
+    <string name="navbar_stats">Statystyki</string>
+    <string name="navbar_dirs">Foldery</string>
+    <string name="menu_log_browser">Przeglądarka logów</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_about">Informacje o aplikacji</string>
+    <string name="comp_comp_dirs">Uruchom kompresje w folderach</string>
+    <string name="comp_comp_photo">Wybierz zdjęcie do kompresji</string>
+    <string name="comp_photo_preview">Podgląd zdjęcia</string>
+    <string name="comp_path_default">brak ścieżki</string>
+    <string name="comp_progress_default">Skompresowano 0 z 0 zdjęć</string>
+    <string name="comp_no_comp">Kompresja nie została jeszcze uruchomiona.</string>
+    <string name="comp_comp_dirs_content_description">rozpocznij kompresje zdjęć w folderach lub ją zatrzymaj</string>
+    <string name="comp_comp_photo_content_description">wybierz jedno zdjęcie do kompresji</string>
+    <string name="comp_photo_preview_content_description">podgląd aktualnie kompresowanego zdjęcia</string>
+    <string name="comp_title">Kompresja</string>
+    <string name="comp_title_started">Kompresja trwa...</string>
+    <string name="comp_title_paused">Kompresja wstrzymana</string>
+    <string name="comp_title_finished">Kompresja skończona</string>
+    <string name="comp_err_add_dir_first">Najpierw dodaj folder</string>
+    <string name="comp_photos">zdjęć</string>
+    <string name="comp_compressed">Skompresowano</string>
+    <string name="comp_of">z</string>
+    <string name="dirs_bt_add">Dodaj</string>
+    <string name="dirs_bt_delete">Usuń</string>
+    <string name="dirs_no_dirs">Dodaj ścieżki do folderów ze zdjęciami, które mają być kompresowane.</string>
+    <string name="topbar_about_title">O aplikacji</string>
+    <string name="topbar_settings_title">Ustawienia</string>
+    <string name="topbar_comp_title">Kompresja</string>
+    <string name="topbar_stats_title">Statystyki</string>
+    <string name="topbar_dirs_title">Foldery</string>
+    <string name="topbar_log_browser_title">Przeglądarka logów</string>
+    <string name="cancel">Anuluj</string>
+    <string name="ok">OK</string>
+    <string name="perm_request_reason">Aby umożliwić kompresję zdjęć na telefonie te uprawnienia są wymagane</string>
+    <string name="perm_to_settings">Część uprawnień musi zostać udzielona ręcznie w Ustawieniach</string>
+    <string name="perm_app_will_shutdown">Aplikacja zostanie wyłączana z powodu braku podstawowych uprawnień</string>
+    <string name="perm_not_given">Te uprawnienia nie zostały udzielone:</string>
+    <string name="perm_required_to_run_app">są one wymagane w celu zapewnienia podstawowej funkcjonalności aplikacji. Bez nich aplikacja nie będzie zachowywać się poprawnie</string>
+    <string name="settings_quality_level">Poziom jakości zdjęć</string>
+    <string name="settings_quality_level_summary">Mniejsze wartości zmniejszają jakość i rozmiar</string>
+    <string name="settings_width">Szerokość zdjęć</string>
+    <string name="settings_width_summary">Mniejsze wartości zmiejszają wymiary i rozmiar</string>
+    <string name="about_licence_info">Licencja <a href="https://www.gnu.org/licenses/gpl-3.0.txt">GNU GPLv3</a></string>
+    <string name="about_copyright_info">Copyright © 2022 Ascendit Sp. z o. o.</string>
+    <string name="settings_change_dimension">Zmieniaj wymiary zdjęć</string>
+    <string name="settings_change_dimension_summary">Gdy ta opcja jest włączona, zdjęcia zostaną przeskalowane w oparciu o szerokość poniżej.</string>
+    <string name="settings_extension">Format zdjęć</string>
+    <string name="settings_extension_summary">JPEG jest bardziej kompatybilny i szybszy. WEBP ma lepszą kompresje ale jest wolniejszy.</string>
+    <string name="settings_change_format">Zmieniaj format zdjęć</string>
+    <string name="settings_change_format_summary">Gdy ta opcja jest włączona, format zdjęć będzie zmieniany do formatu wybranego poniżej.</string>
+    <string name="settings_extension_dialog_title">Wybierz format zdjęć</string>
+    <string name="settings_width_dialog_title">Szerokość zdjęcia</string>
+    <string name="settings_quality_dialog_title">Poziom jakości</string>
+    <string name="settings_theme_dialog_title">Wybierz motyw</string>
+    <string name="settings_theme_auto">Systemowy</string>
+    <string name="settings_theme_light">Jasny</string>
+    <string name="settings_theme_dark">Ciemny</string>
+    <string name="settings_theme">Motyw aplikacji</string>
+    <string name="menu_usage">Obsługa</string>
+    <string name="usage_url">https://matdlu.com/pl/usage/compressmygallery/</string>
+</resources>

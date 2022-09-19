@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Ascendit Sp. z o. o.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see https://www.gnu.org/licenses/
+  ~
+  -->
+
+<resources>
+    <color name="seed">#4CAF50</color>
+    <color name="md_theme_primary">#78DC77</color>
+    <color name="md_theme_onPrimary">#00390A</color>
+    <!--
+    <color name="md_theme_primaryContainer">#005313</color>
+    <color name="md_theme_onPrimaryContainer">#94F990</color>
+    -->
+    <color name="md_theme_primaryContainer">#005313</color>
+    <color name="md_theme_onPrimaryContainer">#94F990</color>
+
+    <color name="md_theme_secondary">#BACCB3</color>
+    <color name="md_theme_onSecondary">#253423</color>
+    <color name="md_theme_secondaryContainer">#3B4B38</color>
+    <color name="md_theme_onSecondaryContainer">#D5E8CF</color>
+    <color name="md_theme_tertiary">#A0CFD4</color>
+    <color name="md_theme_onTertiary">#00363B</color>
+    <color name="md_theme_tertiaryContainer">#1F4D52</color>
+    <color name="md_theme_onTertiaryContainer">#BCEBF0</color>
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_errorContainer">#93000A</color>
+    <color name="md_theme_onError">#690005</color>
+    <color name="md_theme_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_background">#1A1C19</color>
+    <color name="md_theme_onBackground">#E2E3DD</color>
+    <color name="md_theme_surface">#1A1C19</color>
+    <color name="md_theme_onSurface">#E2E3DD</color>
+    <color name="md_theme_surfaceVariant">#424940</color>
+    <color name="md_theme_onSurfaceVariant">#C2C9BD</color>
+    <color name="md_theme_outline">#8C9388</color>
+    <color name="md_theme_inverseOnSurface">#1A1C19</color>
+    <color name="md_theme_inverseSurface">#E2E3DD</color>
+    <color name="md_theme_inversePrimary">#006E1C</color>
+    <color name="md_theme_shadow">#000000</color>
+    <color name="md_theme_surfaceTint">#78DC77</color>
+    <color name="md_theme_surfaceTintColor">#78DC77</color>
+
+    <color name="line">#00000000</color>
+    <color name="unselected">#8C9388</color>
+
+    <color name="log_verbose">#006E1C</color>
+    <color name="log_debug">#F6BE00</color>
+    <color name="log_error">#BA1A1A</color>
+</resources>

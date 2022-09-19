@@ -1,0 +1,1 @@
+Reduce photo size wihout noticeable difference in quality.
