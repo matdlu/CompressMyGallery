@@ -52,7 +52,6 @@ object CompLogic {
         var imgCnt = 0
         for(compDir in compDirs) {
             imgCnt += compDir.compImgIds.size
-            println(imgCnt)
         }
 
         var updatableStarted = false
