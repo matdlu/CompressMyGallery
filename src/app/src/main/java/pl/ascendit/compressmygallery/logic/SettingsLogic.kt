@@ -43,7 +43,13 @@ object SettingsLogic {
         val theme = "system"
     }
 
-    var isFirstRun = true
+    fun isFirstRun(): Boolean {
+        return preferences.getBoolean("firstRun", true)
+    }
+
+    fun setFirstRun(value: Boolean) {
+        preferences.edit().putBoolean("firstRun", value).commit()
+    }
 
     fun getIsAllowedToChangeFormat(): Boolean {
         return preferences.getBoolean("changeFormat", Default.isAllowedToChangeFormat)
@@ -105,14 +111,6 @@ object SettingsLogic {
         Log.d(ltag, "loading preferences")
 
         preferences = PreferenceManager.getDefaultSharedPreferences(context)
-
-        preferences.apply {
-            if ( getString("firstRun", "true") == "true" ) {
-                preferences.edit().putString("firstRun", "false").commit()
-            } else {
-                isFirstRun = false
-            }
-        }
 
         changeTheme(getTheme())
 

@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity(), Navigable {
         CompLogic.updatable = compFragment
         statsFragment = StatsFragment()
 
-        if ( SettingsLogic.isFirstRun ) {
+        if ( SettingsLogic.isFirstRun() ) {
             navigate(Navigable.Destination.Intro)
         } else {
             navigate(Navigable.Destination.Stats)
@@ -191,6 +191,7 @@ class MainActivity : AppCompatActivity(), Navigable {
                 bottomNav.visibility = View.GONE
                 introFragment = IntroFragment()
                 introFragment!!.onIntroFinished = {
+                    SettingsLogic.setFirstRun(false)
                     isIntro = false
                     askForPermissions()
                     navigate(Navigable.Destination.Stats)

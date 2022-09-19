@@ -93,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_gravity="bottom"
-            android:background="@color/md_divider_light_theme"
+            android:background="@color/line"
             app:layout_constraintBottom_toTopOf="@+id/btQuit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
