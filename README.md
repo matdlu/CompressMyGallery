@@ -33,3 +33,15 @@ It is is distributed in the hope that it will be useful, but WITHOUT ANY WARRANT
 ![Settings screen](./fastlane/metadata/android/en-US/images/phoneScreenshots/4.png)
 ### Log screen
 ![Log screen](./fastlane/metadata/android/en-US/images/phoneScreenshots/5.png)
+
+# Libraries
+[Room](https://developer.android.com/jetpack/androidx/releases/room) - persistant storage
+
+[Coil](https://coil-kt.github.io/coil/) - fast image loading
+
+[PermissionX](https://github.com/guolindev/PermissionX) - simpler permission access
+
+[SimpleStorage](https://github.com/anggrayudi/SimpleStorage) - getting access to storage
+
+[PageIndicatorView](https://github.com/romandanylyk/PageIndicatorView) - page indicator
+

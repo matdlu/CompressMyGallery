@@ -33,3 +33,4 @@ Niniejszy program jest rozpowszechniany z nadzieją, iż będzie on użyteczny -
 ![Ekran ustawień](./fastlane/metadata/android/pl/images/phoneScreenshots/4.png)
 ### Ekran logów
 ![Ekran logów](./fastlane/metadata/android/pl/images/phoneScreenshots/5.png)
+
