@@ -44,7 +44,6 @@ data class CompImg (
         }
 
         fun create(compDirId: String, path: String, size: Long) : CompImg {
-            Log.v(ltag, "creating CompImg")
             return CompImg(compDirId = compDirId, path = path, sizeBefore = size).apply {
                 CompDb.insertCompImg(this)
             }
@@ -52,7 +51,6 @@ data class CompImg (
 
         /* When compressing single image */
         fun create(path: String, size: Long) : CompImg {
-            Log.v(ltag, "creating CompImg")
             return CompImg(path = path, sizeBefore = size).apply {
                 CompDb.insertCompImg(this)
             }

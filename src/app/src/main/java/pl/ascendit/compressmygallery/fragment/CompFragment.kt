@@ -77,7 +77,6 @@ class CompFragment : Fragment(), CompUpdatable {
         super.onCreate(savedInstanceState)
 
         storageHelper.onFileSelected = { requestCode, files ->
-            Log.d(ltag, "clicked to compress single file")
             val file = files[0]
             thread {
                 CompLogic.runImg(requireContext(), file.getAbsolutePath(requireContext()))
@@ -112,10 +111,8 @@ class CompFragment : Fragment(), CompUpdatable {
                         extendBtStartStop()
                     } else {
                         shrinkBtStartStop()
-                        Log.d(ltag, "clicked to start compression")
                         thread {
                             if (AppDb.getDirItems().size <= 0) {
-                                Log.d(ltag, "no saved directories")
                                 requireActivity().runOnUiThread {
                                     Toast.makeText(
                                         context,
@@ -130,17 +127,14 @@ class CompFragment : Fragment(), CompUpdatable {
                     }
                 }
                 CompFragmentState.STARTED -> {
-                    Log.d(ltag, "clicked to pause compression")
                     CompLogic.pauseCompression(requireContext())
                     changeState(CompFragmentState.PAUSED)
                 }
                 CompFragmentState.PAUSED -> {
-                    Log.d(ltag, "clicked to resume compression")
                     CompLogic.resumeCompression(requireContext())
                     changeState(CompFragmentState.STARTED)
                 }
                 CompFragmentState.FINISHED -> {
-                    Log.d(ltag, "clicked to reset view state")
                     changeState(CompFragmentState.INITIAL)
                 }
             }
@@ -327,10 +321,8 @@ class CompFragment : Fragment(), CompUpdatable {
         if ( isAdded ) {
             requireActivity().runOnUiThread {
                 if (path.isEmpty()) {
-                    Log.e(ltag, "image preview cannot be loaded because path is empty")
                     binding.tvPhotoPath.text = "Brak ścieżki"
                 } else {
-                    Log.d(ltag, "image preview set to: ${path}")
                     binding.tvPhotoPath.text = path
                     ImageHelper.setImg(binding.ivPhoto, path)
                 }
@@ -345,7 +337,6 @@ class CompFragment : Fragment(), CompUpdatable {
             requireActivity().runOnUiThread {
                 binding.tvProgressInfo.text = "${tr.compressed} ${imgPosition} ${tr.of} ${imgCnt} ${tr.photos}"
                 val perc = (imgPosition.toDouble() / imgCnt.toDouble()) * 100.0
-                Log.v(ltag, "progress bar set to ${perc}")
                 binding.progressBar.setProgress(perc.toInt(), true)
             }
         }

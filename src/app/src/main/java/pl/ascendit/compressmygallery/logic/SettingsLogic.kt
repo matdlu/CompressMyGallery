@@ -106,7 +106,6 @@ object SettingsLogic {
     }
 
     fun loadPrefsToObjects(context: Context) {
-        Log.d(ltag, "loading preferences")
 
         preferences = PreferenceManager.getDefaultSharedPreferences(context)
 
@@ -121,6 +120,5 @@ object SettingsLogic {
             quality = getQuality(),
         )
 
-        Log.d(ltag,"loaded preferences")
     }
 }

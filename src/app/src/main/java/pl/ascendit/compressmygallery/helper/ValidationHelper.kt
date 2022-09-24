@@ -45,7 +45,6 @@ class ValidationHelper(
 
     inner class BasicValidation {
         private fun handleError(str: String?, errStr: String) {
-            Log.d(ltag, errStr)
             onError(str, errStr)
         }
 

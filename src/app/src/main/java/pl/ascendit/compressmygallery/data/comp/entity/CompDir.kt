@@ -47,17 +47,14 @@ data class CompDir (
         }
 
         fun create(compFullId: String, dirPath: String) : CompDir? {
-            Log.v(ltag, "creating CompDir")
             return CompDir(compFullId = compFullId, pathToDir = dirPath).apply {
                 val dir = File(dirPath)
                 if (!dir.exists()) {
                     CompLogic.updatable.errorToast("Directory ${dirPath}\ndoes not exist")
-                    Log.e(ltag, "dir does not exist ${dirPath}")
                     return null
                 }
                 val files = dir.listFiles()
                 if (files == null) {
-                    Log.d(ltag, "dir is empty ${dirPath}")
                     return null
                 }
                 for (file in files) {

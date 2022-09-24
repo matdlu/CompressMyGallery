@@ -44,19 +44,16 @@ data class CompFull (
         }
 
         fun create() : CompFull? {
-            Log.v(ltag, "creating CompFull")
             return CompFull().apply {
                 val dirs = AppDb.getDirItems()
                 for (dir in dirs) {
                     val compDir = CompDir.create(id, dir.path)
                     if (compDir != null) {
-                        Log.d(ltag, "${compDir.pathToDir} added")
                         compDirIds.add(compDir.id)
                     }
                 }
                 if ( compDirIds.count() <= 0 ) {
                     CompLogic.updatable.errorToast("No directories with images to compress")
-                    Log.d(ltag, "no directories with images to compress")
                     return null
                 }
                 CompDb.insertCompFull(this)

@@ -57,11 +57,9 @@ class DirItemAdapter : RecyclerView.Adapter<DirItemViewHolder>() {
         holder.itemView.setOnClickListener {
             data[position].selected = ! data[position].selected
             holder.binding.checkBox.isChecked = data[position].selected
-            Log.v(ltag, "item clicked ${data[position]}")
         }
         holder.binding.checkBox.setOnClickListener {
             data[position].selected = ! data[position].selected
-            Log.v(ltag, "checkbox clicked ${data[position]}")
         }
     }
 
@@ -74,7 +72,6 @@ class DirItemAdapter : RecyclerView.Adapter<DirItemViewHolder>() {
                 selected.add(dir)
             }
         }
-        Log.v(ltag, "selected dirs ${selected}")
         return selected;
     }
 
