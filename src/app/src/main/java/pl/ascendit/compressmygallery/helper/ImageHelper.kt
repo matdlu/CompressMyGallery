@@ -18,13 +18,11 @@
 
 package pl.ascendit.compressmygallery.helper
 
-import android.graphics.BitmapFactory
 import android.widget.ImageView
 import coil.load
 import coil.request.CachePolicy
 import coil.size.Dimension
 import coil.size.Scale
-import coil.size.Size
 import coil.transform.RoundedCornersTransformation
 import com.afollestad.materialdialogs.utils.MDUtil.waitForHeight
 

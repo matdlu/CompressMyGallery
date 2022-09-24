@@ -18,8 +18,10 @@
 
 package pl.ascendit.compressmygallery.data.log
 
-import androidx.room.*
-import pl.ascendit.compressmygallery.data.app.entity.DirItem
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import pl.ascendit.compressmygallery.data.log.entity.LogItem
 
 @Dao

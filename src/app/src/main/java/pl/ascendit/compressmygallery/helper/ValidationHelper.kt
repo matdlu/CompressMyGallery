@@ -20,7 +20,6 @@ package pl.ascendit.compressmygallery.helper
 
 import android.util.Log
 import androidx.core.text.isDigitsOnly
-import pl.ascendit.compressmygallery.logic.SettingsLogic
 
 class ValidationHelper(
     val onError: (str: String?, message: String) -> Unit

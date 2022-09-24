@@ -19,15 +19,16 @@
 package pl.ascendit.compressmygallery.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anggrayudi.storage.SimpleStorageHelper
-import com.anggrayudi.storage.file.*
+import com.anggrayudi.storage.file.getAbsolutePath
+import com.anggrayudi.storage.file.toRawDocumentFile
 import pl.ascendit.compressmygallery.adapter.DirItemAdapter
 import pl.ascendit.compressmygallery.data.app.AppDb
 import pl.ascendit.compressmygallery.data.app.entity.DirItem

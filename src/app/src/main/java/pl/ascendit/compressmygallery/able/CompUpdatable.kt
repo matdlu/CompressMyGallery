@@ -18,8 +18,6 @@
 
 package pl.ascendit.compressmygallery.able
 
-import android.content.Context
-
 interface CompUpdatable {
     fun updateImage(path: String)
     fun updateProgress(imgPosition: Int, imgCnt: Int)

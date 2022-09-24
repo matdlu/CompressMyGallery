@@ -18,17 +18,12 @@
 
 package pl.ascendit.compressmygallery.adapter
 
-import android.graphics.Color
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import pl.ascendit.compressmygallery.R
-import pl.ascendit.compressmygallery.data.app.AppDb
-import pl.ascendit.compressmygallery.data.app.entity.DirItem
 import pl.ascendit.compressmygallery.data.log.LogSeverity
 import pl.ascendit.compressmygallery.data.log.entity.LogItem
-import pl.ascendit.compressmygallery.databinding.DirItemBinding
 import pl.ascendit.compressmygallery.databinding.LogItemBinding
 
 class LogItemViewHolder(

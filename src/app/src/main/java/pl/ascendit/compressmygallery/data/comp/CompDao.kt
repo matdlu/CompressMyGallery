@@ -18,11 +18,13 @@
 
 package pl.ascendit.compressmygallery.data.comp
 
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import pl.ascendit.compressmygallery.data.comp.entity.CompDir
 import pl.ascendit.compressmygallery.data.comp.entity.CompFull
 import pl.ascendit.compressmygallery.data.comp.entity.CompImg
-import pl.ascendit.compressmygallery.data.comp.CompStatus
 
 @Dao
 internal interface CompDao {

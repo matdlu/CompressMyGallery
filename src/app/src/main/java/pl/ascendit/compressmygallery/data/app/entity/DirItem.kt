@@ -22,8 +22,6 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import pl.ascendit.compressmygallery.data.app.AppDb
-import pl.ascendit.compressmygallery.data.comp.CompDb
-import pl.ascendit.compressmygallery.data.comp.entity.CompDir
 
 @Entity
 data class DirItem (

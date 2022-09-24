@@ -23,11 +23,9 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.text.isDigitsOnly
 import androidx.preference.PreferenceManager
 import pl.ascendit.compressmygallery.R
 import pl.ascendit.compressmygallery.helper.CompHelper
-import java.time.LocalDateTime
 
 object SettingsLogic {
     val ltag = "SettingsLogic"

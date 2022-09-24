@@ -23,11 +23,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import pl.ascendit.compressmygallery.data.comp.CompDao
-import pl.ascendit.compressmygallery.data.comp.entity.CompDir
-import pl.ascendit.compressmygallery.data.comp.entity.CompFull
-import pl.ascendit.compressmygallery.data.comp.entity.CompImg
-import pl.ascendit.compressmygallery.data.converter.ListStringConverter
 import pl.ascendit.compressmygallery.data.converter.LocalDateTimeConverter
 import pl.ascendit.compressmygallery.data.log.entity.LogItem
 

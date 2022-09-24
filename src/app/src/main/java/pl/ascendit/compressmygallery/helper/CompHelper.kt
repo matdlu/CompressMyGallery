@@ -18,16 +18,14 @@
 
 package pl.ascendit.compressmygallery.helper
 
-import android.content.ContentResolver.NOTIFY_DELETE
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import androidx.exifinterface.media.ExifInterface
 import android.media.MediaScannerConnection
 import android.net.Uri
 import androidx.core.graphics.scale
-import androidx.core.net.toUri
+import androidx.exifinterface.media.ExifInterface
 import java.io.File
 
 

@@ -20,10 +20,10 @@ package pl.ascendit.compressmygallery.logic
 
 import android.content.Context
 import pl.ascendit.compressmygallery.able.CompUpdatable
-import pl.ascendit.compressmygallery.data.comp.*
-import pl.ascendit.compressmygallery.data.comp.entity.CompFull
+import pl.ascendit.compressmygallery.data.comp.CompDb
 import pl.ascendit.compressmygallery.data.comp.CompStatus
 import pl.ascendit.compressmygallery.data.comp.entity.CompDir
+import pl.ascendit.compressmygallery.data.comp.entity.CompFull
 import pl.ascendit.compressmygallery.data.comp.entity.CompImg
 import pl.ascendit.compressmygallery.helper.CompHelper
 import pl.ascendit.compressmygallery.helper.LogH

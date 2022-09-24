@@ -19,7 +19,6 @@
 package pl.ascendit.compressmygallery.helper
 
 import android.util.Log
-import pl.ascendit.compressmygallery.data.log.LogDb
 import pl.ascendit.compressmygallery.data.log.LogSeverity
 import pl.ascendit.compressmygallery.data.log.entity.LogItem
 

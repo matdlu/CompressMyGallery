@@ -18,17 +18,11 @@
 
 package pl.ascendit.compressmygallery.fragment
 
-import android.app.AlertDialog
-import android.content.Context
-import android.content.DialogInterface
 import android.os.Bundle
 import android.text.InputType
-import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.preference.*
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import pl.ascendit.compressmygallery.R
-import pl.ascendit.compressmygallery.databinding.DialogListBinding
 import pl.ascendit.compressmygallery.helper.CompHelper
 import pl.ascendit.compressmygallery.helper.ValidationHelper
 import pl.ascendit.compressmygallery.logic.SettingsLogic

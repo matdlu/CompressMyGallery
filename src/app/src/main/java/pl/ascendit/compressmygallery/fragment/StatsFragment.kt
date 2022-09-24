@@ -18,14 +18,12 @@
 
 package pl.ascendit.compressmygallery.fragment
 
-import android.content.Context
 import android.icu.text.DecimalFormat
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import pl.ascendit.compressmygallery.R
+import androidx.fragment.app.Fragment
 import pl.ascendit.compressmygallery.data.comp.CompDb
 import pl.ascendit.compressmygallery.data.comp.CompStatus
 import pl.ascendit.compressmygallery.databinding.FragmentStatsBinding

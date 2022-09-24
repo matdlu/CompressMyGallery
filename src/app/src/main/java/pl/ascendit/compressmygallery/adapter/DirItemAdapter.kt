@@ -22,8 +22,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 import pl.ascendit.compressmygallery.data.app.AppDb
 import pl.ascendit.compressmygallery.data.app.entity.DirItem
 import pl.ascendit.compressmygallery.databinding.DirItemBinding

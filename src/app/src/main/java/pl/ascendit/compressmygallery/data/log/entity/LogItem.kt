@@ -18,11 +18,8 @@
 
 package pl.ascendit.compressmygallery.data.log.entity
 
-import android.util.Log
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import pl.ascendit.compressmygallery.data.comp.CompDb
-import pl.ascendit.compressmygallery.data.comp.entity.CompImg
 import pl.ascendit.compressmygallery.data.log.LogDb
 import pl.ascendit.compressmygallery.data.log.LogSeverity
 import java.time.LocalDateTime

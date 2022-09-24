@@ -19,11 +19,6 @@
 package pl.ascendit.compressmygallery.data.comp
 
 import android.content.Context
-import kotlinx.coroutines.*
-import pl.ascendit.compressmygallery.data.app.AppDao
-import pl.ascendit.compressmygallery.data.app.AppDatabase
-import pl.ascendit.compressmygallery.data.app.AppDb
-import pl.ascendit.compressmygallery.data.app.entity.DirItem
 import pl.ascendit.compressmygallery.data.comp.entity.CompDir
 import pl.ascendit.compressmygallery.data.comp.entity.CompFull
 import pl.ascendit.compressmygallery.data.comp.entity.CompImg
